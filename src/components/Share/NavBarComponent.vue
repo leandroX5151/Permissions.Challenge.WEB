@@ -11,10 +11,10 @@
             <router-link class="nav-link active" aria-current="page" to="/">Inicio</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">GitHub</a>
+            <a class="nav-link" href="https://github.com/leandroX5151/Permissions.Challenge.WEB">GitHub</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Acerca de</a>
+            <a class="nav-link" href="http://www.elegece.com.ar/">Acerca de</a>
           </li>
         </ul>
       </div>
