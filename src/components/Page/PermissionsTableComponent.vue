@@ -44,6 +44,7 @@
 <script>
 import HeaderSectionComponent from '../Share/HeaderSectionComponent.vue'
 import axios from 'axios'
+import Global from '../Utils/Global.js'
 
 export default {
   name: "PermissionsTableComponent",
@@ -62,8 +63,8 @@ export default {
         };
     },
     methods: {
-        getPermissions() { 
-            axios.get('https://localhost:44344/api/permiso/get')
+        getPermissions() {
+            axios.get(Global.url + 'get')
             .then(result => {
                 if(result.status == 200) {
                     this.permisos = result.data;
